@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubikCube", "RubikCube\RubikCube.csproj", "{EAFDBCF8-E753-419D-AC58-C5F9187803A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubikCube.ConsolePrinter", "RubikCube.ConsolePrinter\RubikCube.ConsolePrinter.csproj", "{A75D92B8-B2E4-47B2-A45C-BB13B98FB09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubikCube.Api", "RubikCube.Api\RubikCube.Api.csproj", "{40238DCD-87C8-45B5-B21B-5E50EA48D1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubikCube.Tests", "RubikCube.Tests\RubikCube.Tests.csproj", "{BD3639EC-D9CB-4C52-9DB6-E631363B2722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAFDBCF8-E753-419D-AC58-C5F9187803A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFDBCF8-E753-419D-AC58-C5F9187803A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFDBCF8-E753-419D-AC58-C5F9187803A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFDBCF8-E753-419D-AC58-C5F9187803A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75D92B8-B2E4-47B2-A45C-BB13B98FB09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75D92B8-B2E4-47B2-A45C-BB13B98FB09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75D92B8-B2E4-47B2-A45C-BB13B98FB09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75D92B8-B2E4-47B2-A45C-BB13B98FB09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40238DCD-87C8-45B5-B21B-5E50EA48D1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40238DCD-87C8-45B5-B21B-5E50EA48D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40238DCD-87C8-45B5-B21B-5E50EA48D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40238DCD-87C8-45B5-B21B-5E50EA48D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3639EC-D9CB-4C52-9DB6-E631363B2722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3639EC-D9CB-4C52-9DB6-E631363B2722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3639EC-D9CB-4C52-9DB6-E631363B2722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3639EC-D9CB-4C52-9DB6-E631363B2722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

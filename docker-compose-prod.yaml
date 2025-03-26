@@ -1,0 +1,23 @@
+services:
+  frontend:
+    build:
+      context: ./RubikCubeUI       
+      dockerfile: Dockerfile-prod  
+    container_name: rubik-cube-ui-prod    
+    ports:
+      - "5173:80"
+    volumes:
+      - ./RubikCubeUI:/app 
+      - /app/node_modules 
+    environment:
+      - API_BASE=http://backend:8080/api/rubiksCube
+
+  backend:
+    build: 
+      context: ./RubikCube
+      dockerfile: RubikCube.Api/Dockerfile
+    container_name: rubik-cube-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8081:8080"
